@@ -1,0 +1,36 @@
+
+body {
+    background-color: rgb(10, 10, 10);
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.image {
+    width: 50vh;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.image[data-status="inactive"] {
+    display: none;
+}
+
+.image[data-status="active"] {
+    display: block;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    top: 500px;
+
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+  }
+  
